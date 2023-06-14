@@ -1,8 +1,16 @@
-.sq{
-    height: 16px;
-    width: 16px;
-    border: 2px black solid;
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    width: 560px;
+    height: 560px;
+    border: none;
+}
+#container > div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    }
+
+.blank {
+    background-color:white;
 }
