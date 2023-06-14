@@ -1,0 +1,8 @@
+.sq{
+    height: 16px;
+    width: 16px;
+    border: 2px black solid;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
