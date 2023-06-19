@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="flex-container"><h1>Sketchpad</h1></div>
+    <div class="mode">Mode: Coloring</div>
     <div class="content">
     <div class="board"></div>
     <div class="buttons">
@@ -23,6 +24,7 @@
         <input type="text" placeholder="Size of board" value="16" onchange="changeSize(this.value)" />
         <button>Set Size</button>
     </div>
+    <div class="error">Input must be between 2 and 100</div>
 </div>
 </body>
 <script src="etch.js"></script>
